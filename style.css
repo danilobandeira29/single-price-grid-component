@@ -5,6 +5,7 @@
   --clr-yellowBright-primary: hsl(71, 73%, 54%);
   --clr-lightGray-neutral: hsl(204, 43%, 93%);
   --clr-blueGrayish-neutral: hsl(218, 22%, 67%);
+  --clr-white: white;
 
   --ff-karla-primary: 'Karla', sans-serif;
   --fw-regular: 400;
@@ -25,4 +26,33 @@ body {
   font-family: var(--ff-karla-primary);
   font-size: 1.6rem;
   background: var(--clr-lightGray-neutral);
+}
+
+.container {
+  max-width: 375px;
+  margin: 6rem auto;
+}
+
+.header-card {
+  background: var(--clr-white);
+  padding: 3rem;
+  border-radius: 6px 6px 0 0;
+}
+
+.title-container .title-medium {
+  color: var(--clr-cyan-primary);
+  font-size: 2rem;
+}
+
+.title-container .title-neutral {
+  color: var(--clr-yellowBright-primary);
+}
+
+.title-container .title-medium,
+.title-container .title-neutral {
+  margin-bottom: 2rem;
+}
+
+.header-card .text-neutral {
+  color: var(--clr-blueGrayish-neutral);
 }
